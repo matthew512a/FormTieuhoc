@@ -58,6 +58,15 @@ namespace FormDangNhap
                 a = double.Parse(this.txtCanh1.Text);
                 b = double.Parse(this.txtCanh2.Text);
                 c = double.Parse(this.txtCanh3.Text);
+                if (a + b < c || a + c < b || b + c < a)
+                {
+                    MessageBox.Show("Ba cạnh này không tạo thành một tam giác hợp lệ. Vui lòng nhập lại.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+           
+                a = double.Parse(this.txtCanh1.Text);
+                b = double.Parse(this.txtCanh2.Text);
+                c = double.Parse(this.txtCanh3.Text);
                 cv = a + b + c;
                 p = cv / 2;
                 dt = Math.Round(Math.Sqrt(p * (p - a) * (p - b) * (p - c)), 4);
