@@ -38,7 +38,6 @@
             txtCanh3 = new TextBox();
             txtCanh2 = new TextBox();
             button1 = new Button();
-            button3 = new Button();
             lbCanh1 = new Label();
             lbCanh2 = new Label();
             lbCanh3 = new Label();
@@ -135,23 +134,13 @@
             // button1
             // 
             button1.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button1.Location = new Point(336, 186);
+            button1.Location = new Point(312, 222);
             button1.Name = "button1";
-            button1.Size = new Size(103, 52);
+            button1.Size = new Size(121, 107);
             button1.TabIndex = 12;
             button1.Text = "Tính";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
-            // 
-            // button3
-            // 
-            button3.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button3.Location = new Point(336, 264);
-            button3.Name = "button3";
-            button3.Size = new Size(103, 41);
-            button3.TabIndex = 14;
-            button3.Text = "Thoát";
-            button3.UseVisualStyleBackColor = true;
             // 
             // lbCanh1
             // 
@@ -227,7 +216,6 @@
             Controls.Add(lbCanh3);
             Controls.Add(lbCanh2);
             Controls.Add(lbCanh1);
-            Controls.Add(button3);
             Controls.Add(button1);
             Controls.Add(txtCanh2);
             Controls.Add(txtCanh3);
@@ -257,7 +245,6 @@
         private TextBox txtCanh3;
         private TextBox txtCanh2;
         private Button button1;
-        private Button button3;
         private Label lbCanh1;
         private Label lbCanh2;
         private Label lbCanh3;
