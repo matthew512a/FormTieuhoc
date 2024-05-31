@@ -45,9 +45,9 @@
             // 
             label1.BackColor = SystemColors.ActiveCaption;
             label1.Font = new Font("Segoe UI", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(-2, 0);
+            label1.Location = new Point(0, 0);
             label1.Name = "label1";
-            label1.Size = new Size(1035, 105);
+            label1.Size = new Size(1014, 110);
             label1.TabIndex = 2;
             label1.Text = "PHÉP SO SÁNH";
             label1.TextAlign = ContentAlignment.MiddleCenter;
@@ -56,9 +56,10 @@
             // 
             btnTaosongaunhien.BackColor = SystemColors.ActiveCaption;
             btnTaosongaunhien.Font = new Font("Segoe UI", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnTaosongaunhien.Location = new Point(818, 477);
+            btnTaosongaunhien.Location = new Point(783, 397);
+            btnTaosongaunhien.Margin = new Padding(3, 2, 3, 2);
             btnTaosongaunhien.Name = "btnTaosongaunhien";
-            btnTaosongaunhien.Size = new Size(167, 53);
+            btnTaosongaunhien.Size = new Size(146, 40);
             btnTaosongaunhien.TabIndex = 27;
             btnTaosongaunhien.Text = "Tiếp tục";
             btnTaosongaunhien.TextAlign = ContentAlignment.TopCenter;
@@ -69,9 +70,10 @@
             // 
             btnKiemTra.BackColor = SystemColors.ActiveCaption;
             btnKiemTra.Font = new Font("Segoe UI", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnKiemTra.Location = new Point(818, 404);
+            btnKiemTra.Location = new Point(783, 343);
+            btnKiemTra.Margin = new Padding(3, 2, 3, 2);
             btnKiemTra.Name = "btnKiemTra";
-            btnKiemTra.Size = new Size(167, 53);
+            btnKiemTra.Size = new Size(146, 40);
             btnKiemTra.TabIndex = 26;
             btnKiemTra.Text = "Xem";
             btnKiemTra.TextAlign = ContentAlignment.TopCenter;
@@ -82,29 +84,29 @@
             // 
             lblKetqua.BackColor = SystemColors.ActiveCaption;
             lblKetqua.Font = new Font("Segoe UI Semibold", 16.2F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            lblKetqua.Location = new Point(183, 481);
+            lblKetqua.Location = new Point(258, 399);
             lblKetqua.Name = "lblKetqua";
-            lblKetqua.Size = new Size(610, 48);
+            lblKetqua.Size = new Size(478, 36);
             lblKetqua.TabIndex = 24;
             lblKetqua.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(22, 481);
+            label3.Font = new Font("Segoe UI", 19.8000011F, FontStyle.Bold);
+            label3.Location = new Point(95, 398);
             label3.Name = "label3";
-            label3.Size = new Size(151, 46);
+            label3.Size = new Size(123, 37);
             label3.TabIndex = 23;
             label3.Text = "Kết quả:";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI Semibold", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(41, 404);
+            label2.Font = new Font("Segoe UI", 19.8000011F, FontStyle.Bold);
+            label2.Location = new Point(95, 345);
             label2.Name = "label2";
-            label2.Size = new Size(132, 46);
+            label2.Size = new Size(111, 37);
             label2.TabIndex = 22;
             label2.Text = "Trả lời: ";
             // 
@@ -112,10 +114,10 @@
             // 
             rdoLon.AutoSize = true;
             rdoLon.Font = new Font("Segoe UI", 27.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            rdoLon.Location = new Point(299, 391);
+            rdoLon.Location = new Point(296, 334);
             rdoLon.Margin = new Padding(3, 4, 3, 4);
             rdoLon.Name = "rdoLon";
-            rdoLon.Size = new Size(80, 66);
+            rdoLon.Size = new Size(65, 54);
             rdoLon.TabIndex = 28;
             rdoLon.TabStop = true;
             rdoLon.Text = ">";
@@ -125,10 +127,10 @@
             // 
             rdoNho.AutoSize = true;
             rdoNho.Font = new Font("Segoe UI", 27.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            rdoNho.Location = new Point(466, 391);
+            rdoNho.Location = new Point(462, 336);
             rdoNho.Margin = new Padding(3, 4, 3, 4);
             rdoNho.Name = "rdoNho";
-            rdoNho.Size = new Size(80, 66);
+            rdoNho.Size = new Size(65, 54);
             rdoNho.TabIndex = 29;
             rdoNho.TabStop = true;
             rdoNho.Text = "<";
@@ -138,10 +140,10 @@
             // 
             rdoBang.AutoSize = true;
             rdoBang.Font = new Font("Segoe UI", 27.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            rdoBang.Location = new Point(622, 391);
+            rdoBang.Location = new Point(625, 336);
             rdoBang.Margin = new Padding(3, 4, 3, 4);
             rdoBang.Name = "rdoBang";
-            rdoBang.Size = new Size(80, 66);
+            rdoBang.Size = new Size(65, 54);
             rdoBang.TabIndex = 30;
             rdoBang.TabStop = true;
             rdoBang.Text = "=";
@@ -152,29 +154,28 @@
             lblSo1.BackColor = Color.FromArgb(255, 224, 192);
             lblSo1.Font = new Font("Segoe UI", 36F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblSo1.ForeColor = Color.Black;
-            lblSo1.Location = new Point(221, 161);
+            lblSo1.Location = new Point(258, 156);
             lblSo1.Name = "lblSo1";
-            lblSo1.Size = new Size(187, 189);
+            lblSo1.Size = new Size(164, 142);
             lblSo1.TabIndex = 33;
             lblSo1.TextAlign = ContentAlignment.MiddleCenter;
-            lblSo1.Click += lblSo1_Click;
             // 
             // lblSo2
             // 
             lblSo2.BackColor = Color.FromArgb(255, 224, 192);
             lblSo2.Font = new Font("Segoe UI", 36F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblSo2.ForeColor = Color.Black;
-            lblSo2.Location = new Point(611, 161);
+            lblSo2.Location = new Point(577, 156);
             lblSo2.Name = "lblSo2";
-            lblSo2.Size = new Size(182, 189);
+            lblSo2.Size = new Size(159, 142);
             lblSo2.TabIndex = 34;
             lblSo2.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // Sosanh
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1032, 624);
+            ClientSize = new Size(1012, 598);
             ControlBox = false;
             Controls.Add(lblSo2);
             Controls.Add(lblSo1);

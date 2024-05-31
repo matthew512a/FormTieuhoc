@@ -57,11 +57,6 @@ namespace FormDangNhap
             }
             lblKetqua.Text = ketQua;
         }
-
-        private void lblSo1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
 

@@ -28,175 +28,232 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            label1 = new Label();
-            label2 = new Label();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            pictureBox1 = new PictureBox();
+            contextMenuStrip1 = new ContextMenuStrip(components);
             linkLabel1 = new LinkLabel();
-            button1 = new Button();
             checkBox1 = new CheckBox();
-            bttnDangnhap = new Button();
             label3 = new Label();
-            groupBox1 = new GroupBox();
-            label4 = new Label();
-            groupBox1.SuspendLayout();
+            backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
+            guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
+            btnDangNhap = new Guna.UI2.WinForms.Guna2GradientButton();
+            btnThoat = new Guna.UI2.WinForms.Guna2GradientButton();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)guna2CirclePictureBox1).BeginInit();
             SuspendLayout();
             // 
-            // textBox1
+            // pictureBox1
             // 
-            textBox1.Location = new Point(137, 81);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(197, 27);
-            textBox1.TabIndex = 0;
-            textBox1.Text = "Tendangnhap";
+            pictureBox1.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox1.Image = Properties.Resources.math;
+            pictureBox1.InitialImage = (Image)resources.GetObject("pictureBox1.InitialImage");
+            pictureBox1.Location = new Point(-1, -2);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(507, 600);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 10;
+            pictureBox1.TabStop = false;
             // 
-            // textBox2
+            // contextMenuStrip1
             // 
-            textBox2.Location = new Point(137, 134);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(197, 27);
-            textBox2.TabIndex = 1;
-            textBox2.Text = "Matkhau";
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(19, 81);
-            label1.Name = "label1";
-            label1.Size = new Size(112, 20);
-            label1.TabIndex = 2;
-            label1.Text = "Tên đăng nhập";
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(46, 134);
-            label2.Name = "label2";
-            label2.Size = new Size(75, 20);
-            label2.TabIndex = 3;
-            label2.Text = "Mật khẩu";
+            contextMenuStrip1.BackColor = Color.White;
+            contextMenuStrip1.ImageScalingSize = new Size(20, 20);
+            contextMenuStrip1.Name = "contextMenuStrip1";
+            contextMenuStrip1.Size = new Size(61, 4);
             // 
             // linkLabel1
             // 
             linkLabel1.AutoSize = true;
-            linkLabel1.BackColor = SystemColors.ActiveCaption;
-            linkLabel1.Location = new Point(225, 176);
+            linkLabel1.Font = new Font("Constantia", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            linkLabel1.Location = new Point(783, 376);
             linkLabel1.Name = "linkLabel1";
-            linkLabel1.Size = new Size(109, 20);
+            linkLabel1.Size = new Size(133, 22);
             linkLabel1.TabIndex = 4;
             linkLabel1.TabStop = true;
             linkLabel1.Text = "Quên mật khẩu";
             // 
-            // button1
-            // 
-            button1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.Location = new Point(100, 215);
-            button1.Name = "button1";
-            button1.Size = new Size(94, 29);
-            button1.TabIndex = 5;
-            button1.Text = "Thoát";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
-            // 
             // checkBox1
             // 
             checkBox1.AutoSize = true;
-            checkBox1.BackColor = SystemColors.ActiveCaption;
-            checkBox1.Location = new Point(137, 176);
+            checkBox1.BackColor = Color.White;
+            checkBox1.Font = new Font("Constantia", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            checkBox1.Location = new Point(619, 372);
             checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(82, 24);
+            checkBox1.Size = new Size(97, 26);
             checkBox1.TabIndex = 6;
             checkBox1.Text = "Ghi nhớ";
             checkBox1.UseVisualStyleBackColor = false;
             // 
-            // bttnDangnhap
-            // 
-            bttnDangnhap.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            bttnDangnhap.Location = new Point(212, 215);
-            bttnDangnhap.Name = "bttnDangnhap";
-            bttnDangnhap.Size = new Size(94, 29);
-            bttnDangnhap.TabIndex = 7;
-            bttnDangnhap.Text = "Đăng nhập";
-            bttnDangnhap.UseVisualStyleBackColor = true;
-            bttnDangnhap.Click += button2_Click;
-            // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.BackColor = Color.FromArgb(255, 224, 192);
-            label3.BorderStyle = BorderStyle.FixedSingle;
-            label3.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(123, 33);
+            label3.BackColor = Color.Transparent;
+            label3.Font = new Font("Constantia", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.Location = new Point(669, 175);
             label3.Name = "label3";
-            label3.Size = new Size(136, 30);
+            label3.Size = new Size(199, 37);
             label3.TabIndex = 8;
             label3.Text = "ĐĂNG NHẬP";
             // 
-            // groupBox1
+            // guna2CirclePictureBox1
             // 
-            groupBox1.BackColor = SystemColors.ActiveCaption;
-            groupBox1.BackgroundImageLayout = ImageLayout.Stretch;
-            groupBox1.Controls.Add(bttnDangnhap);
-            groupBox1.Controls.Add(label3);
-            groupBox1.Controls.Add(checkBox1);
-            groupBox1.Controls.Add(label2);
-            groupBox1.Controls.Add(button1);
-            groupBox1.Controls.Add(label1);
-            groupBox1.Controls.Add(linkLabel1);
-            groupBox1.Controls.Add(textBox1);
-            groupBox1.Controls.Add(textBox2);
-            groupBox1.ForeColor = SystemColors.ControlText;
-            groupBox1.Location = new Point(219, 107);
-            groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(376, 281);
-            groupBox1.TabIndex = 9;
-            groupBox1.TabStop = false;
+            guna2CirclePictureBox1.Image = Properties.Resources.icons8_user_100;
+            guna2CirclePictureBox1.ImageRotate = 0F;
+            guna2CirclePictureBox1.Location = new Point(717, 73);
+            guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
+            guna2CirclePictureBox1.ShadowDecoration.CustomizableEdges = customizableEdges10;
+            guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            guna2CirclePictureBox1.Size = new Size(96, 97);
+            guna2CirclePictureBox1.TabIndex = 12;
+            guna2CirclePictureBox1.TabStop = false;
             // 
-            // label4
+            // guna2TextBox1
             // 
-            label4.AutoSize = true;
-            label4.BackColor = Color.Transparent;
-            label4.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label4.ForeColor = Color.FromArgb(0, 192, 0);
-            label4.Location = new Point(25, 22);
-            label4.Name = "label4";
-            label4.Size = new Size(824, 54);
-            label4.TabIndex = 10;
-            label4.Text = "CÁC DẠNG BÀI TOÁN TIỂU HỌC PHỔ BIẾN";
+            guna2TextBox1.BorderRadius = 10;
+            guna2TextBox1.BorderThickness = 2;
+            guna2TextBox1.CustomizableEdges = customizableEdges11;
+            guna2TextBox1.DefaultText = "";
+            guna2TextBox1.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            guna2TextBox1.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            guna2TextBox1.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            guna2TextBox1.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            guna2TextBox1.FocusedState.BorderColor = Color.Aqua;
+            guna2TextBox1.Font = new Font("Bookman Old Style", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            guna2TextBox1.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            guna2TextBox1.IconLeft = Properties.Resources.user_black1;
+            guna2TextBox1.IconLeftSize = new Size(30, 30);
+            guna2TextBox1.Location = new Point(618, 236);
+            guna2TextBox1.Margin = new Padding(5);
+            guna2TextBox1.Name = "guna2TextBox1";
+            guna2TextBox1.PasswordChar = '\0';
+            guna2TextBox1.PlaceholderText = "Tên đăng nhập";
+            guna2TextBox1.SelectedText = "";
+            guna2TextBox1.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            guna2TextBox1.Size = new Size(301, 40);
+            guna2TextBox1.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
+            guna2TextBox1.TabIndex = 13;
+            guna2TextBox1.Enter += guna2TextBox1_Enter;
+            guna2TextBox1.Leave += guna2TextBox1_Leave;
+            // 
+            // guna2TextBox2
+            // 
+            guna2TextBox2.BorderRadius = 10;
+            guna2TextBox2.BorderThickness = 2;
+            guna2TextBox2.CustomizableEdges = customizableEdges13;
+            guna2TextBox2.DefaultText = "";
+            guna2TextBox2.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            guna2TextBox2.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            guna2TextBox2.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            guna2TextBox2.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            guna2TextBox2.FocusedState.BorderColor = Color.Aqua;
+            guna2TextBox2.Font = new Font("Bookman Old Style", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            guna2TextBox2.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            guna2TextBox2.IconLeft = Properties.Resources.Lock_black;
+            guna2TextBox2.IconLeftSize = new Size(30, 30);
+            guna2TextBox2.Location = new Point(618, 307);
+            guna2TextBox2.Margin = new Padding(5);
+            guna2TextBox2.Name = "guna2TextBox2";
+            guna2TextBox2.PasswordChar = '\0';
+            guna2TextBox2.PlaceholderText = "Mật khẩu";
+            guna2TextBox2.SelectedText = "";
+            guna2TextBox2.ShadowDecoration.CustomizableEdges = customizableEdges14;
+            guna2TextBox2.Size = new Size(301, 40);
+            guna2TextBox2.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
+            guna2TextBox2.TabIndex = 14;
+            guna2TextBox2.Enter += guna2TextBox2_Enter;
+            guna2TextBox2.Leave += guna2TextBox2_Leave;
+            // 
+            // btnDangNhap
+            // 
+            btnDangNhap.BorderRadius = 10;
+            btnDangNhap.CustomizableEdges = customizableEdges15;
+            btnDangNhap.DisabledState.BorderColor = Color.DarkGray;
+            btnDangNhap.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnDangNhap.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnDangNhap.DisabledState.FillColor2 = Color.FromArgb(169, 169, 169);
+            btnDangNhap.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnDangNhap.FillColor = Color.YellowGreen;
+            btnDangNhap.FillColor2 = Color.YellowGreen;
+            btnDangNhap.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnDangNhap.ForeColor = Color.White;
+            btnDangNhap.Location = new Point(775, 426);
+            btnDangNhap.Name = "btnDangNhap";
+            btnDangNhap.ShadowDecoration.CustomizableEdges = customizableEdges16;
+            btnDangNhap.Size = new Size(145, 44);
+            btnDangNhap.TabIndex = 15;
+            btnDangNhap.Text = "Đăng nhập";
+            btnDangNhap.Click += btnDangNhap_Click;
+            // 
+            // btnThoat
+            // 
+            btnThoat.BorderRadius = 10;
+            btnThoat.CustomizableEdges = customizableEdges17;
+            btnThoat.DisabledState.BorderColor = Color.DarkGray;
+            btnThoat.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnThoat.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnThoat.DisabledState.FillColor2 = Color.FromArgb(169, 169, 169);
+            btnThoat.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnThoat.FillColor = Color.Crimson;
+            btnThoat.FillColor2 = Color.Crimson;
+            btnThoat.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnThoat.ForeColor = Color.White;
+            btnThoat.Location = new Point(612, 428);
+            btnThoat.Name = "btnThoat";
+            btnThoat.ShadowDecoration.CustomizableEdges = customizableEdges18;
+            btnThoat.Size = new Size(145, 44);
+            btnThoat.TabIndex = 16;
+            btnThoat.Text = "THOÁT";
+            btnThoat.Click += btnThoat_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackColor = Color.White;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(882, 545);
-            Controls.Add(label4);
-            Controls.Add(groupBox1);
+            ClientSize = new Size(1012, 598);
+            ControlBox = false;
+            Controls.Add(btnThoat);
+            Controls.Add(btnDangNhap);
+            Controls.Add(guna2TextBox2);
+            Controls.Add(guna2TextBox1);
+            Controls.Add(guna2CirclePictureBox1);
+            Controls.Add(label3);
+            Controls.Add(checkBox1);
+            Controls.Add(linkLabel1);
+            Controls.Add(pictureBox1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "Form1";
-            Text = "Form1";
-            Load += Form1_Load;
-            groupBox1.ResumeLayout(false);
-            groupBox1.PerformLayout();
+            StartPosition = FormStartPosition.CenterScreen;
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)guna2CirclePictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private Label label1;
-        private Label label2;
+        private PictureBox pictureBox1;
+        private ContextMenuStrip contextMenuStrip1;
         private LinkLabel linkLabel1;
-        private Button button1;
         private CheckBox checkBox1;
-        private Button bttnDangnhap;
         private Label label3;
-        private GroupBox groupBox1;
-        private Label label4;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
+        private Guna.UI2.WinForms.Guna2GradientButton btnDangNhap;
+        private Guna.UI2.WinForms.Guna2GradientButton btnThoat;
     }
 }

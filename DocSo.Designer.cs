@@ -39,10 +39,10 @@
             // label1
             // 
             label1.BackColor = SystemColors.ActiveCaption;
-            label1.Font = new Font("Segoe UI", 22.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Font = new Font("Segoe UI", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.Location = new Point(0, 0);
             label1.Name = "label1";
-            label1.Size = new Size(1032, 112);
+            label1.Size = new Size(1014, 110);
             label1.TabIndex = 3;
             label1.Text = "ĐỌC SỐ";
             label1.TextAlign = ContentAlignment.MiddleCenter;
@@ -51,9 +51,10 @@
             // 
             btnConvert.BackColor = SystemColors.ActiveCaption;
             btnConvert.Font = new Font("Segoe UI", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnConvert.Location = new Point(348, 449);
+            btnConvert.Location = new Point(434, 343);
+            btnConvert.Margin = new Padding(3, 2, 3, 2);
             btnConvert.Name = "btnConvert";
-            btnConvert.Size = new Size(293, 68);
+            btnConvert.Size = new Size(146, 45);
             btnConvert.TabIndex = 34;
             btnConvert.Text = "Chuyển đổi";
             btnConvert.UseVisualStyleBackColor = false;
@@ -63,46 +64,46 @@
             // 
             lblKetqua.BackColor = SystemColors.ActiveCaption;
             lblKetqua.Font = new Font("Segoe UI Semibold", 16.2F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            lblKetqua.Location = new Point(178, 297);
+            lblKetqua.Location = new Point(232, 243);
             lblKetqua.Name = "lblKetqua";
-            lblKetqua.Size = new Size(778, 94);
+            lblKetqua.Size = new Size(684, 66);
             lblKetqua.TabIndex = 33;
             lblKetqua.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(21, 313);
+            label3.Font = new Font("Segoe UI", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label3.Location = new Point(98, 255);
             label3.Name = "label3";
-            label3.Size = new Size(126, 38);
+            label3.Size = new Size(114, 37);
             label3.TabIndex = 32;
             label3.Text = "Kết quả:";
             // 
             // txtNumber
             // 
             txtNumber.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtNumber.Location = new Point(178, 218);
+            txtNumber.Location = new Point(232, 187);
             txtNumber.Margin = new Padding(3, 4, 3, 4);
             txtNumber.Name = "txtNumber";
-            txtNumber.Size = new Size(778, 47);
+            txtNumber.Size = new Size(685, 39);
             txtNumber.TabIndex = 35;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(21, 224);
+            label2.Font = new Font("Segoe UI", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.Location = new Point(90, 186);
             label2.Name = "label2";
-            label2.Size = new Size(133, 38);
+            label2.Size = new Size(122, 37);
             label2.TabIndex = 36;
             label2.Text = "Nhập số:";
             // 
             // DocSo
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1032, 624);
+            ClientSize = new Size(1012, 598);
             ControlBox = false;
             Controls.Add(label2);
             Controls.Add(txtNumber);

@@ -28,6 +28,5 @@ namespace FormDangNhap
                 MessageBox.Show("Vui lòng nhập một số hợp lệ.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
-
     }
 }

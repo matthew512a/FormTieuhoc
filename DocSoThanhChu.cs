@@ -47,7 +47,7 @@ namespace FormDangNhap
                 var group = number % 1000;
                 number /= 1000;
 
-                var groupWords = ConvertGroupToWords((int)group);
+                var groupWords = ConvertGroupToWords((int)group, groupIndex == 0);
                 if (!string.IsNullOrWhiteSpace(groupWords))
                 {
                     words = groupWords + " " + ThousandsGroups[groupIndex] + " " + words;
@@ -59,7 +59,7 @@ namespace FormDangNhap
             return words.Trim();
         }
 
-        private static string ConvertGroupToWords(int number)
+        private static string ConvertGroupToWords(int number, bool isLastGroup)
         {
             var hundreds = number / 100;
             var tensUnits = number % 100;
@@ -71,9 +71,17 @@ namespace FormDangNhap
             if (hundreds > 0)
             {
                 groupWords += Units[hundreds] + " trăm ";
-                if (tensUnits > 0 && tensUnits < 10)
+                if (tens == 0 && units > 0)
                 {
-                    groupWords += "linh ";
+                    groupWords += "lẻ ";
+                }
+            }
+            else if (isLastGroup && tensUnits > 0)
+            {
+                groupWords += "không trăm ";
+                if (units > 0)
+                {
+                    groupWords += "lẻ ";
                 }
             }
 
@@ -95,6 +103,10 @@ namespace FormDangNhap
                         groupWords += " " + Units[units];
                     }
                 }
+            }
+            else if (units > 0)
+            {
+                groupWords += Units[units];
             }
 
             return groupWords.Trim();
