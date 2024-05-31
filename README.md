@@ -1,2 +1,1 @@
-Nếu mày là người đồng hương 18 36 thì chúc mừng mày đã may mắn
-Còn lại kp thì cx chúc mày vui vẻ với file này
+Nhóm 3 thành viên ng 18: 18G1, 18CA (Vụ Bản) và 18K1
